@@ -67,6 +67,7 @@ app.get('/account', verifyIfAccountCpf, (req, res) => {
     customer
   })
 })
+//somente para teste 
 
 
 app.patch('/account', verifyIfAccountCpf, (req, res) => {
